@@ -1,0 +1,196 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+
+B2 {
+    font-family: "Khand", sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+    word-spacing: .001ex;
+    letter-spacing: .001ex;
+    text-decoration: none;
+}
+
+#page-wrapper {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: gray;
+}
+
+#section0 {
+    position: relative;
+    display: block;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 500px;
+    background-color: purple;
+}
+
+#section1 {
+    position: relative;
+    display: block;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 500px;
+    background-color: red;
+}
+
+#section2 {
+    position: relative;
+    display: block;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 500px;
+    background-color: green;
+}
+
+#section3 {
+    position: relative;
+    display: block;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 500px;
+    background-color: orange;
+}
+
+.nav {
+    display: block;
+    background: transparent;
+    z-index: 100;
+    width: 50px !important;
+    margin: 0px;
+}
+
+.nav a {
+    color: white;
+}
+
+.nav li a:active,
+.nav li a:hover,
+.nav li a:focus {
+    background-color: transparent !important;
+}
+
+#toggle_nav {
+    position: fixed;
+    z-index: 100;
+    overflow: hidden;
+    display: block;
+    width: 50px;
+    height: 120vh !important;
+    top: 0px;
+    left: 0px;
+    padding-top: 40px;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#toggle_nav.slideNavLeft {
+    left: -49px;
+    transition: left 0.5s ease-in-out;
+    -moz-transition: left 0.5s ease-in-out;
+    -webkit-transition: left 0.5s ease-in-out;
+    -o-transition: left 0.5s ease-in-out;
+}
+
+#toggle_nav.slideNavRight {
+    left: 0px;
+    transition: left 0.5s ease-in-out;
+    -moz-transition: left 0.5s ease-in-out;
+    -webkit-transition: left 0.5s ease-in-out;
+    -o-transition: left 0.5s ease-in-out;
+}
+
+#navToggle {
+    opacity: 1;
+    position: fixed;
+    left: 5px;
+    top: 4px;
+    z-index: 200;
+    width: 40px;
+    height: 20px;
+}
+
+#toggle_nav li {
+    height: 13vh;
+    width: auto;
+    margin-bottom: 1vh;
+}
+
+#toggle_nav li a {
+    color: white;
+    line-height: 100px;
+}
+
+.navButton {
+    background-repeat: no-repeat;
+    background-position: top;
+    content: "";
+    left: -10px;
+    top: 0px;
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.navButton span {
+    position: absolute;
+    top: 0px;
+    left: -1px;
+    width: 50px;
+}
+
+.navHighlight {
+    z-index: 100;
+    display: block;
+    width: 5px;
+    height: 70px;
+    margin-top: -15px;
+    margin-left: 30px;
+    background: transparent;
+}
+
+#navbar_img {
+    height: 20px;
+    width: 40px;
+}
+
+#nav0 {
+    background-image: url("http://nickel-dime.com/OPENSRC/IMG/CA_nav0-on.png");
+}
+
+#nav1 {
+    background-image: url("http://nickel-dime.com/OPENSRC/IMG/CA_nav1-off.png");
+}
+
+#nav2 {
+    background-image: url("http://nickel-dime.com/OPENSRC/IMG/CA_nav2-off.png");
+}
+
+#nav3 {
+    background-image: url("http://nickel-dime.com/OPENSRC/IMG/CA_nav3-off.png");
+}
