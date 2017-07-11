@@ -18,7 +18,8 @@
     <link rel="stylesheet" href="/assets/css/animate.css">
     <!-- Custom CSS -->
     <link href="/assets/css/style.css" rel="stylesheet">
-    <script type="text/javascript" src="/assets/js/app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fresca" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
 </head>
 
 <body data-spy="scroll" data-target="#toggle_nav" data-offset="50">
@@ -31,41 +32,75 @@
         <ul id="nav" class="nav" data-spy="affix">
             <li>
                 <a id="nav0" class="navButton active" href="#section0" data-value="0">
-                    <div class="navHighlight"></div><span><B2>Home</B2></span></a>
+                    <div class="navHighlight"></div>
+                    <span><B2>Home</B2></span>
+                </a>
             </li>
             <li>
                 <a id="nav1" class="navButton" href="#section1" data-value="1">
-                    <div class="navHighlight"></div><span><B2>About</B2></span></a>
+                    <div class="navHighlight"></div>
+                    <span><B2>About</B2></span>
+                </a>
             </li>
             <li>
                 <a id="nav2" class="navButton" href="#section2" data-value="2">
-                    <div class="navHighlight"></div><span><B2>Portfolio</B2></span></a>
+                    <div class="navHighlight"></div>
+                    <span><B2>Portfolio</B2></span>
+                </a>
             </li>
             <li>
                 <a id="nav3" class="navButton" href="#section3" data-value="3">
-                    <div class="navHighlight"></div><span><B2>Contact</B2></span></a>
+                    <div class="navHighlight"></div>
+                    <span><B2>Contact</B2></span>
+                </a>
             </li>
         </ul>
     </div>
     <div class="container-fluid" id="page-wrapper">
         <br>
-        <div id="section0" class="container-fluid">
-            <h1>Home</h1>
+        <div id="section0" class="container-fluid section">
+            <div class="landingDiv">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                        <h1 class="intro">Stacy Marshall</h1>
+                        <h2 class="title">Web Developer</h2>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-md-4">
+                        <a href="https://github.com/Sam-Marshall" target="_blank">
+                            <button class="btn btn-block btn-primary socialMedia"><i class="fa fa-github"></i>GitHub</button>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                        <a href="https://www.linkedin.com/in/stacy-marshall/" target="_blank">
+                            <button class="btn btn-block btn-info socialMedia"><i class="fa fa-linkedin-square"></i>LinkedIn</button>
+                        </a>
+                    </div>
+                    <div class="col-sm-4 col-md-4">
+                        <a href="https://www.linkedin.com/in/stacy-marshall/" target="_blank">
+                            <button class="btn btn-block btn-success socialMedia"></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
         <br>
-        <div id="section1" class="container-fluid">
+        <div id="section1" class="container-fluid section">
             <h1>About</h1>
         </div>
         <br>
-        <div id="section2" class="container-fluid">
+        <div id="section2" class="container-fluid section">
             <h1>Portfolio</h1>
         </div>
         <br>
-        <div id="section3" class="container-fluid">
+        <div id="section3" class="container-fluid section">
             <h1>Contact</h1>
         </div>
         <br>
     </div>
+    <script type="text/javascript" src="/assets/js/app.js"></script>
 </body>
 
 </html>
